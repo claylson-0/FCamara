@@ -111,8 +111,6 @@ a{
 
 /* MENU MOBILE */
 
-
-
 .menu-mobile-barra{
     display: flex;
     justify-content: space-between;
@@ -289,7 +287,7 @@ a{
     font-weight: bold;
 }
 
-/* informacoes */
+/* INFORMACOES */
 
 #informacoes {
     background-color: var(--azul);
@@ -332,6 +330,12 @@ a{
 .lista-informacoes p {
     font-size: 18px;
     font-weight: bold;
+}
+.lista-informacoes strong{
+    background-color: var(--branco);
+    color: var(--azul);
+    padding: 1px 2px;
+    border-radius: 5px;
 }
 
 .item-flex {
